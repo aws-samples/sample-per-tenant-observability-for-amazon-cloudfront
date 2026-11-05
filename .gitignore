@@ -1,0 +1,18 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Local secrets and context (cdk.context.json can hold account-specific lookups)
+.env
+*credentials*.json
+cdk.context.json
